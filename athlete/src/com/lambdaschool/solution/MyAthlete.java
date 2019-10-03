@@ -2,19 +2,20 @@ package com.lambdaschool.solution;
 
 public class MyAthlete implements Processor
 {
-    private AthleteService athleteSvc;
+    // constructor injections
+    private AthleteService athSvc;
 
-    public MyAthlete(AthleteService athleteSvc)
+    public MyAthlete(AthleteService athSvc)
     {
-        this.athleteSvc = athleteSvc;
+        this.athSvc = athSvc;
     }
 
-    // generate overrride
+    // generate overrides
     @Override
     public void displayAthlete(String athlete)
     {
         // rules
-        athlete = "************\n" + athlete + "\n************\n";
-        athleteSvc.displayAthlete(athlete);
+        athlete = athlete + "*********\n" + athlete + "\n*********\n";
+        athSvc.displayAthlete(athlete);
     }
 }
