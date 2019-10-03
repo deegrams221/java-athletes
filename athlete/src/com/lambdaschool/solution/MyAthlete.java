@@ -3,7 +3,7 @@ package com.lambdaschool.solution;
 public class MyAthlete implements Processor
 {
     private AthleteService athleteSvc;
-    
+
     public MyAthlete(AthleteService athleteSvc)
     {
         this.athleteSvc = athleteSvc;
