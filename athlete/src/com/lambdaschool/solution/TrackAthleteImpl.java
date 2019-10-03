@@ -4,9 +4,9 @@ public class TrackAthleteImpl implements AthleteService
 {
     // generate override
     @Override
-    public void displayAthlete(String sport, String athlete)
+    public void displayAthlete()
     {
         // sout
-        System.out.println(sport + " " + athlete);
+        System.out.println("Track Runner");
     }
 }
