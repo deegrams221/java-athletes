@@ -8,25 +8,23 @@ public class Main
         Processor app;
 
         // Create a Track Athlete
-        injector = new TrackAthleteCreationInjector();
+        injector = new TrackCreationInjector();
         app = injector.getProcess();
         app.displayAthlete();
 
         // Create a Hockey Athlete
-        injector = new HockeyAthleteCreationInjector();
+        injector = new HockeyCreationInjector();
         app = injector.getProcess();
         app.displayAthlete();
 
-
         // Create a Rugby Athlete
-        injector = new RugbyAthleteCreationInjector();
+        injector = new RugbyCreationInjector();
         app = injector.getProcess();
         app.displayAthlete();
 
         // Create a Baseball Athlete
-        injector = new BaseballAthleteCreationInjector();
+        injector = new BaseballCreationInjector();
         app = injector.getProcess();
         app.displayAthlete();
-
     }
 }
