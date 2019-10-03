@@ -12,10 +12,10 @@ public class MyAthlete implements Processor
 
     // generate overrides
     @Override
-    public void displayAthlete(String athlete)
+    public void displayAthlete(String sport, String athlete)
     {
         // rules
-        athlete = "****************\n" + athlete + "\n****************\n";
-        athSvc.displayAthlete(athlete);
+        athlete = "****************\n" + sport + athlete + "\n****************\n";
+        athSvc.displayAthlete(sport, athlete);
     }
 }

@@ -2,5 +2,6 @@ package com.lambdaschool.solution;
 
 public interface AthleteService
 {
-    void displayAthlete(String athlete);
+    // technical interface
+    void displayAthlete(String Sport, String athlete);
 }
