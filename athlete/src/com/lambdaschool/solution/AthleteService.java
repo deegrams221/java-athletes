@@ -1,6 +1,6 @@
 package com.lambdaschool.solution;
 
-public class AthleteService
+public interface AthleteService
 {
-
+    void displayAthlete(String athlete);
 }
