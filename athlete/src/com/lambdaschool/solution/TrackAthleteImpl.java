@@ -1,6 +1,6 @@
 package com.lambdaschool.solution;
 
-public class BaseballImpl implements AthleteService
+public class TrackAthleteImpl implements AthleteService
 {
     // generate override
     @Override

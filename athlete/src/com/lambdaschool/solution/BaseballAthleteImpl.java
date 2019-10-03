@@ -1,12 +1,12 @@
 package com.lambdaschool.solution;
 
-public class RugbyImpl implements AthleteService
+public class BaseballAthleteImpl implements AthleteService
 {
     // generate override
     @Override
     public void displayAthlete(String athlete)
     {
-        //sout
+        // sout
         System.out.println(athlete);
     }
 }
