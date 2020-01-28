@@ -2,8 +2,7 @@ package com.lambdaschool.solution;
 
 public class Main
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         AthleteCreationInjector injector;
         Processor app;
 
